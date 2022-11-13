@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet"
+    />
+    <title>Coffee Masters</title>
+    <link href="coffeeMastresStyle.css" rel="stylesheet"/>
+</head>
+<body class="grid-box">
+    <header>
+        <img src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png" alt="coffee-logo"/>
+        <h1>Coffee Masters</h1>
+    </header>
+    <main>
+        <div class="items">
+            <h3>ITEMS</h3>
+            
+            <div class="items-list-detail">
+                <p class="black-para">1X</p>
+                <div class="list-detail-name">
+                    <h3>Cappucino</h3>
+                    <p>Light Foam</p>
+                </div>
+                <h3 class="amount">$6.00</h3>
+            </div>        
+        
+            <div class="items-list-detail">
+                <p class="black-para">1X</p>
+                <div class="list-detail-name">
+                    <h3>Cappucino</h3>
+                    <p>Almond Milk</p>
+                    <p>Double Expresso Shot</p>
+                </div>
+                <h3 class="amount">$7.90</h3>
+            </div>        
+        
+            <div class="items-list-detail">
+                <p class="black-para">1X</p>
+                <div class="list-detail-name">
+                    <h3>Croissant</h3>
+                    <p>Butter</p>
+                </div>
+                <h3 class="amount">$5.37</h3>
+            </div>        
+               
+           
+        </div>
+        <div class="user-details">
+            <div class="details-name">
+                <h3>NAME</h3>
+                <div class="input-group">
+                    <label class="user-input-label" for="name">Name for order</label>
+                    <input type="text" class="user-input" id="name">
+                </div>
+
+                <!-- <input type="text" placeholder="Name for order"/> -->
+            </div>
+            <div class="details-payment">
+                <h3>PAYMENT</h3>
+                <div class="input-group">
+                    <label class="user-input-label" for="name">Card number</label>
+                    <input type="text" class="user-input" id="name">
+                </div>
+                <div class="input-group">
+                    <label class="user-input-label" for="name">CCV number</label>
+                    <input type="text" class="user-input" id="name">
+                </div>
+                <!-- <div>
+                    
+
+                    <input type="text" placeholder="Card number"/>
+                    
+                </div>
+                
+                <div>
+                    <input type="text" placeholder="CCV number"/>    
+                </div> -->
+                
+            </div>
+        </div>
+        <div class="bill">
+            <ul>
+                <li>
+                    <div class="bill-list">
+                        <p>Subtotal:</p>
+                        <p>$19.27</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bill-list">
+                        <p>Tax:</p>
+                        <p>$0.96</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bill-list-total">
+                        <p>Total:</p>
+                        <p>$20.23</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="place-order">
+            <button>Place Order</button>
+        </div>
+    </main>
+</body>
+</html>
